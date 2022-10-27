@@ -14,3 +14,35 @@ body{
 .TheContacts{
     font-size: 30px;
 }
+
+.Projects{
+    font-size: large;
+    font-style: italic;
+    color: aliceblue;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.ProjectImage{
+    width: 400px;
+    height: auto;
+
+}
+.ProjectContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MyPic{
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
